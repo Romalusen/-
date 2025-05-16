@@ -1,0 +1,813 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "Name": "Взуттєвий Світ",
+      "Address": "Київ, вул. Хрещатик, 1",
+      "ContactInfo": "044-111-1111",
+      "Inventory": {
+        "$id": "3",
+        "$values": [
+          {
+            "$id": "4",
+            "Model": "Черевики Classic",
+            "Brand": "Timberland",
+            "Size": 43,
+            "Price": 5200,
+            "Stock": 96,
+            "Type": "Повсякденне"
+          }
+        ]
+      },
+      "Orders": {
+        "$id": "5",
+        "$values": [
+          {
+            "$id": "6",
+            "OrderNumber": "FDF00AA76D",
+            "Customer": {
+              "$id": "7",
+              "FullName": "вафів",
+              "PhoneNumber": "аів",
+              "OrderHistory": {
+                "$id": "8",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "9",
+              "$values": [
+                {
+                  "$id": "10",
+                  "Model": "Кросівки AirMax",
+                  "Brand": "Nike",
+                  "Size": 32,
+                  "Price": 100,
+                  "Stock": 100,
+                  "Type": "Спортивне"
+                },
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5300,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:29:19.3487359+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "11",
+            "OrderNumber": "E25439249C",
+            "Customer": {
+              "$id": "12",
+              "FullName": "вфів",
+              "PhoneNumber": "фів",
+              "OrderHistory": {
+                "$id": "13",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "14",
+              "$values": [
+                {
+                  "$ref": "10"
+                }
+              ]
+            },
+            "TotalAmount": 100,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:37:40.0832058+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "15",
+            "OrderNumber": "32BA026BA9",
+            "Customer": {
+              "$id": "16",
+              "FullName": "віфвф",
+              "PhoneNumber": "вфівфі",
+              "OrderHistory": {
+                "$id": "17",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "18",
+              "$values": [
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5200,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:37:58.1854565+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "19",
+            "OrderNumber": "4D30DBCC37",
+            "Customer": {
+              "$id": "20",
+              "FullName": "вфвфі",
+              "PhoneNumber": "вфівф",
+              "OrderHistory": {
+                "$id": "21",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "22",
+              "$values": [
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5300,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:41:04.5952818+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "23",
+            "OrderNumber": "32D1BD3340",
+            "Customer": {
+              "$id": "24",
+              "FullName": "вфівфі",
+              "PhoneNumber": "вфівфі",
+              "OrderHistory": {
+                "$id": "25",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "26",
+              "$values": [
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "4"
+                },
+                {
+                  "$ref": "4"
+                },
+                {
+                  "$ref": "4"
+                },
+                {
+                  "$ref": "4"
+                },
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 26900,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:41:40.6328504+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "27",
+            "OrderNumber": "E19F61E9FC",
+            "Customer": {
+              "$id": "28",
+              "FullName": "віфв",
+              "PhoneNumber": "іфвфі",
+              "OrderHistory": {
+                "$id": "29",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "30",
+              "$values": [
+                {
+                  "$ref": "10"
+                }
+              ]
+            },
+            "TotalAmount": 100,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:52:18.4725011+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "31",
+            "OrderNumber": "E7294019D2",
+            "Customer": {
+              "$id": "32",
+              "FullName": "вфівфі",
+              "PhoneNumber": "вфівфі",
+              "OrderHistory": {
+                "$id": "33",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "34",
+              "$values": [
+                {
+                  "$ref": "4"
+                },
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "10"
+                }
+              ]
+            },
+            "TotalAmount": 5400,
+            "Status": 0,
+            "OrderDate": "2025-05-14T20:01:47.9356742+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "35",
+            "OrderNumber": "AF9CE4D3E7",
+            "Customer": {
+              "$id": "36",
+              "FullName": "впва",
+              "PhoneNumber": "пва",
+              "OrderHistory": {
+                "$id": "37",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "38",
+              "$values": [
+                {
+                  "$ref": "10"
+                },
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5300,
+            "Status": 0,
+            "OrderDate": "2025-05-14T20:08:34.1339201+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "39",
+            "OrderNumber": "DDF6FFD90F",
+            "Customer": {
+              "$id": "40",
+              "FullName": "пывпвып",
+              "PhoneNumber": "пвып",
+              "OrderHistory": {
+                "$id": "41",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "42",
+              "$values": [
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5200,
+            "Status": 0,
+            "OrderDate": "2025-05-15T06:17:25.337232+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "43",
+            "OrderNumber": "356FB10F18",
+            "Customer": {
+              "$id": "44",
+              "FullName": "Каравай В А",
+              "PhoneNumber": "12412412",
+              "OrderHistory": {
+                "$id": "45",
+                "$values": [
+                  {
+                    "$ref": "43"
+                  }
+                ]
+              }
+            },
+            "Items": {
+              "$id": "46",
+              "$values": [
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5200,
+            "Status": 0,
+            "OrderDate": "2025-05-15T08:00:08.9095971+03:00",
+            "StoreName": "Взуттєвий Світ",
+            "DeliveryAddress": "Шевченка 31",
+            "Comments": "авіфафіваві"
+          },
+          {
+            "$id": "47",
+            "OrderNumber": "55522630A5",
+            "Customer": {
+              "$id": "48",
+              "FullName": "вппв",
+              "PhoneNumber": "421412",
+              "OrderHistory": {
+                "$id": "49",
+                "$values": [
+                  {
+                    "$ref": "47"
+                  }
+                ]
+              }
+            },
+            "Items": {
+              "$id": "50",
+              "$values": [
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5200,
+            "Status": 0,
+            "OrderDate": "2025-05-15T08:00:56.4635211+03:00",
+            "StoreName": "Взуттєвий Світ",
+            "DeliveryAddress": "іаі",
+            "Comments": "А"
+          },
+          {
+            "$id": "51",
+            "OrderNumber": "31653893A1",
+            "Customer": {
+              "$id": "52",
+              "FullName": "ПОЬПРО",
+              "PhoneNumber": "ОРЕНО",
+              "OrderHistory": {
+                "$id": "53",
+                "$values": [
+                  {
+                    "$ref": "51"
+                  }
+                ]
+              }
+            },
+            "Items": {
+              "$id": "54",
+              "$values": [
+                {
+                  "$ref": "4"
+                }
+              ]
+            },
+            "TotalAmount": 5200,
+            "Status": 0,
+            "OrderDate": "2025-05-15T14:13:23.425443+03:00",
+            "StoreName": "Взуттєвий Світ",
+            "DeliveryAddress": "ЕОЕР",
+            "Comments": ""
+          }
+        ]
+      },
+      "Customers": {
+        "$id": "55",
+        "$values": []
+      }
+    },
+    {
+      "$id": "56",
+      "Name": "Модне Взуття",
+      "Address": "Львів, пл. Ринок, 5",
+      "ContactInfo": "032-222-2222",
+      "Inventory": {
+        "$id": "57",
+        "$values": [
+          {
+            "$id": "58",
+            "Model": "Туфлі Elegant",
+            "Brand": "Versace",
+            "Size": 41,
+            "Price": 7800,
+            "Stock": 100,
+            "Type": "Класичне"
+          },
+          {
+            "$id": "59",
+            "Model": "Кросівки Zoom",
+            "Brand": "Nike",
+            "Size": 40,
+            "Price": 7653,
+            "Stock": 100,
+            "Type": "Спортивне"
+          },
+          {
+            "$id": "60",
+            "Model": "вів",
+            "Brand": "іфвфі",
+            "Size": 1,
+            "Price": 0,
+            "Stock": 99,
+            "Type": "фівфі"
+          }
+        ]
+      },
+      "Orders": {
+        "$id": "61",
+        "$values": [
+          {
+            "$id": "62",
+            "OrderNumber": "F0841707BF",
+            "Customer": {
+              "$id": "63",
+              "FullName": "фіфі",
+              "PhoneNumber": "івфвіф",
+              "OrderHistory": {
+                "$id": "64",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "65",
+              "$values": [
+                {
+                  "$ref": "58"
+                }
+              ]
+            },
+            "TotalAmount": 7800,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:38:34.139872+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "66",
+            "OrderNumber": "1D2205C3FA",
+            "Customer": {
+              "$id": "67",
+              "FullName": "вфівфі",
+              "PhoneNumber": "іфвфі",
+              "OrderHistory": {
+                "$id": "68",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "69",
+              "$values": [
+                {
+                  "$ref": "59"
+                }
+              ]
+            },
+            "TotalAmount": 0,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:38:50.2572789+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "70",
+            "OrderNumber": "FB8264981A",
+            "Customer": {
+              "$id": "71",
+              "FullName": "fasdf",
+              "PhoneNumber": "fafasf",
+              "OrderHistory": {
+                "$id": "72",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "73",
+              "$values": [
+                {
+                  "$ref": "60"
+                }
+              ]
+            },
+            "TotalAmount": 0,
+            "Status": 0,
+            "OrderDate": "2025-05-15T06:14:24.9600729+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          }
+        ]
+      },
+      "Customers": {
+        "$id": "74",
+        "$values": []
+      }
+    },
+    {
+      "$id": "75",
+      "Name": "Спорт Стиль",
+      "Address": "Одеса, вул. Дерибасівська, 10",
+      "ContactInfo": "048-333-3333",
+      "Inventory": {
+        "$id": "76",
+        "$values": [
+          {
+            "$id": "77",
+            "Model": "Сандалі Beach",
+            "Brand": "Crocs",
+            "Size": 40,
+            "Price": 1200,
+            "Stock": 99,
+            "Type": "Літнє"
+          },
+          {
+            "$id": "78",
+            "Model": "Босоніжки Summer",
+            "Brand": "Adidas",
+            "Size": 39,
+            "Price": 2100,
+            "Stock": 100,
+            "Type": "Літнє"
+          }
+        ]
+      },
+      "Orders": {
+        "$id": "79",
+        "$values": [
+          {
+            "$id": "80",
+            "OrderNumber": "A8BA4AB110",
+            "Customer": {
+              "$id": "81",
+              "FullName": "авіаві",
+              "PhoneNumber": "ваві",
+              "OrderHistory": {
+                "$id": "82",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "83",
+              "$values": [
+                {
+                  "$ref": "77"
+                }
+              ]
+            },
+            "TotalAmount": 1200,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:40:29.3484731+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "84",
+            "OrderNumber": "4594A8A24B",
+            "Customer": {
+              "$id": "85",
+              "FullName": "віаів",
+              "PhoneNumber": "віаві",
+              "OrderHistory": {
+                "$id": "86",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "87",
+              "$values": [
+                {
+                  "$ref": "78"
+                }
+              ]
+            },
+            "TotalAmount": 2100,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:40:41.489679+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "88",
+            "OrderNumber": "062A02406A",
+            "Customer": {
+              "$id": "89",
+              "FullName": "Луценко Р О",
+              "PhoneNumber": "+380932011850",
+              "OrderHistory": {
+                "$id": "90",
+                "$values": [
+                  {
+                    "$ref": "88"
+                  }
+                ]
+              }
+            },
+            "Items": {
+              "$id": "91",
+              "$values": [
+                {
+                  "$ref": "77"
+                }
+              ]
+            },
+            "TotalAmount": 1200,
+            "Status": 0,
+            "OrderDate": "2025-05-15T06:53:34.7613695+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          }
+        ]
+      },
+      "Customers": {
+        "$id": "92",
+        "$values": []
+      }
+    },
+    {
+      "$id": "93",
+      "Name": "Гусар",
+      "Address": "Шевченка 31",
+      "ContactInfo": "Ігнатович О О",
+      "Inventory": {
+        "$id": "94",
+        "$values": [
+          {
+            "$id": "95",
+            "Model": "Pro max",
+            "Brand": "Nik",
+            "Size": 41,
+            "Price": 0,
+            "Stock": 99,
+            "Type": "Літнє"
+          }
+        ]
+      },
+      "Orders": {
+        "$id": "96",
+        "$values": [
+          {
+            "$id": "97",
+            "OrderNumber": "6FFB5EAC96",
+            "Customer": {
+              "$id": "98",
+              "FullName": "іфвфі",
+              "PhoneNumber": "віфвф",
+              "OrderHistory": {
+                "$id": "99",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "100",
+              "$values": [
+                {
+                  "$ref": "95"
+                }
+              ]
+            },
+            "TotalAmount": 0,
+            "Status": 0,
+            "OrderDate": "2025-05-14T19:40:52.3671778+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "101",
+            "OrderNumber": "7B8127B6F1",
+            "Customer": {
+              "$id": "102",
+              "FullName": "авіаві",
+              "PhoneNumber": "авіаві",
+              "OrderHistory": {
+                "$id": "103",
+                "$values": []
+              }
+            },
+            "Items": {
+              "$id": "104",
+              "$values": [
+                {
+                  "$ref": "95"
+                }
+              ]
+            },
+            "TotalAmount": 0,
+            "Status": 0,
+            "OrderDate": "2025-05-14T20:07:41.7447578+03:00",
+            "StoreName": null,
+            "DeliveryAddress": null,
+            "Comments": null
+          },
+          {
+            "$id": "105",
+            "OrderNumber": "F07DB0E6E8",
+            "Customer": {
+              "$id": "106",
+              "FullName": "уй",
+              "PhoneNumber": "лвіафаршірф",
+              "OrderHistory": {
+                "$id": "107",
+                "$values": [
+                  {
+                    "$ref": "105"
+                  }
+                ]
+              }
+            },
+            "Items": {
+              "$id": "108",
+              "$values": [
+                {
+                  "$ref": "95"
+                }
+              ]
+            },
+            "TotalAmount": 0,
+            "Status": 0,
+            "OrderDate": "2025-05-15T14:08:37.0473394+03:00",
+            "StoreName": "Гусар",
+            "DeliveryAddress": "алоША9ЦЙ",
+            "Comments": "♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥☻☺♦♣♠○◘•╒"
+          }
+        ]
+      },
+      "Customers": {
+        "$id": "109",
+        "$values": []
+      }
+    },
+    {
+      "$id": "110",
+      "Name": "авіа",
+      "Address": "віа",
+      "ContactInfo": "в а а",
+      "Inventory": {
+        "$id": "111",
+        "$values": []
+      },
+      "Orders": {
+        "$id": "112",
+        "$values": []
+      },
+      "Customers": {
+        "$id": "113",
+        "$values": []
+      }
+    }
+  ]
+}
