@@ -1,0 +1,1 @@
+I have never programmed before, so it turned out a little crooked, but I will definitely improve this term paper.If someone reads it (except my teacher) please write what can be added, changed.There is no design yet, but I will finish it soon.To all who read have a nice day!
